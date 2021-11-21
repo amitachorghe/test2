@@ -1,0 +1,30 @@
+header {
+    z-index: 999;
+    position: absolute;
+    background-color: rgb(83, 138, 201);
+    display: flex;
+    padding: 7px 700px;
+}
+.imgbrand {
+    align-items: left;
+    float: left ;
+}
+.flex-container1{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+.flex-element{
+    width:200px;
+    height: 200px;
+    background-color: cadetblue;
+
+}
+#label{
+    text-align: center;
+}
+.img {
+    padding-top: 10px;
+}
